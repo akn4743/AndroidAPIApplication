@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Login_Email_Layout" type="id">Login_Email_Layout</item>
+    <item name="Register_Email_Layout" type="id">Register_Email_Layout</item>
+    <item name="Login_Password_Layout" type="id">Login_Password_Layout</item>
+    <item name="Register_Password_Layout" type="id">Register_Password_Layout</item>
+    <item name="RegisterEmailLayout" type="id">RegisterEmailLayout</item>
+    <item name="HomepageLinearLayout" type="id">HomepageLinearLayout</item>
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+</resources>

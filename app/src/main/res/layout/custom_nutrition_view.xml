@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/nutritionGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="5">
+
+        <TextView
+            android:id="@+id/nutritionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/NutritionName"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionNameResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="@string/NullName"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/NutritionBrand"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionBrandResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="@string/NullName"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/NutritionCalories"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionCaloriesResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="@string/NullName"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionFat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="@string/NutritionFat"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionFatResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="@string/NullName"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionServingSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:text="@string/NutritionServingSize"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/nutritionServingSizeResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:text="@string/NullName"
+            android:textSize="16sp"
+            />
+
+
+    </GridLayout>
+
+</LinearLayout>
