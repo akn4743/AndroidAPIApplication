@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">UserStatisticsApplication</string>
+    <string name="RegisterActivityWelcome">Please create an account.</string>
+    <string name="RegisterEmail">Email</string>
+    <string name="RegisterPassword">Password</string>
+    <string name="Login_Register_Button">Register</string>
+    <string name="RegisterBackButton">Back</string>
+    <string name="RegistrationError">This email has been already taken.</string>
+    <string name="title_activity_placeholder_login_success">PlaceholderLoginSuccess</string>
+    <string name="Login_Email">Email</string>
+    <string name="Login_Password">Password</string>
+    <string name="Login_AppCompatButton">Login</string>
+    <string name="Login_Register_AppCompatButton">Register</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="message_success">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Match</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="RegisterAccountButton">Register</string>
+    <string name="SteamAPIButton">SteamSpy API Data</string>
+    <string name="WeatherAPIButton">New York City Weather API</string>
+    <string name="nutritionAPIButton">Search for food items from nutritionix API</string>
+    <string name="SteamWelcome">Data from SteamAPI</string>
+    <string name="HomepageWelcome">Please choose which data you would like to view</string>
+    <string name="SteamAPITopMostPlayed">Top 10 Most Played Games</string>
+    <string name="SteamAPITopMostPlayedRecent">Top 10 Most Recent Played Games</string>
+    <string name="Rank1">1</string>
+    <string name="SteamAPIPlayers">Players</string>
+    <string name="GameName">Game Name</string>
+    <string name="Rank2">2</string>
+    <string name="Rank3">3</string>
+    <string name="Rank4">4</string>
+    <string name="Rank5">5</string>
+    <string name="Rank6">6</string>
+    <string name="Rank7">7</string>
+    <string name="Rank8">8</string>
+    <string name="Rank9">9</string>
+    <string name="Rank10">10</string>
+    <string name="NullName">Null</string>
+    <string name="NullPlayers">Null</string>
+    <string name="SteamAPITopMostOwned">Top 10 Most Owned Games</string>
+    <string name="Rank">Rank</string>
+    <string name="EnterFood">Enter food item</string>
+    <string name="NutritionWelcome">Please enter food item you wish to search</string>
+    <string name="Submit">Submit</string>
+    <string name="NutritionName">Name:</string>
+    <string name="NutritionBrand">Brand:</string>
+    <string name="NutritionCalories">Total Calories:</string>
+    <string name="NutritionFat">Total Fat:</string>
+    <string name="NutritionServingSize">Serving Size:</string>
+
+
+
+
+</resources>

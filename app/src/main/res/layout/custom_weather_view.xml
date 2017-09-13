@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingTop="5dp">
+
+
+    <ImageView
+        android:id="@+id/weatherPhoto"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+                />
+
+    <TextView
+        android:id="@+id/weatherTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="fill_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/NullName"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_toEndOf="@id/weatherPhoto"
+        android:layout_toRightOf="@id/weatherPhoto" />
+
+    <TextView
+        android:id="@+id/weatherDescription"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="fill_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/NullName"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/weatherTitle"
+        android:layout_toEndOf="@id/weatherTitle"/>
+
+
+
+
+</RelativeLayout>
